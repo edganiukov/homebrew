@@ -21,7 +21,7 @@ class JdtLs < Formula
       JDT_LS_LAUNCHER=$(find $JDT_LS_HOME -name "org.eclipse.equinox.launcher_*.jar")
       JDT_LS_HEAP_SIZE=${JDT_LS_HEAP_SIZE:=-Xmx1G}
       java \
-        -Declipse.application=org.eclipse.jdt.ls.core.id1 
+        -Declipse.application=org.eclipse.jdt.ls.core.id1 \
         -Dosgi.bundles.defaultStartLevel=4 \
         -Declipse.product=org.eclipse.jdt.ls.core.product \
         -Dlog.protocol=true \
