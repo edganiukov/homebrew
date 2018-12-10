@@ -3,7 +3,7 @@ Homebrew formula for the [Eclipse JDT Language Server](https://github.com/eclips
 
 ## Install
 ```sh
-brew install https://github.com/edganiukov/homebrew-jdt-ls/blob/master/jdt-ls.rb
+brew install https://raw.githubusercontent.com/edganiukov/homebrew-jdt-ls/master/jdt-ls.rb
 ```
 
 ## Usage 

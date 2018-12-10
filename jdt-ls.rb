@@ -1,4 +1,4 @@
-class JdtLanguageServer < Formula
+class JdtLs < Formula
   desc "A Java language specific implementation of the Language Server Protocol"
   homepage "https://github.com/eclipse/eclipse.jdt.ls"
 
