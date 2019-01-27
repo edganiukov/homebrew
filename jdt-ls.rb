@@ -30,6 +30,9 @@ class JdtLs < Formula
         $JDT_LS_HEAP_SIZE \
         -jar "$JDT_LS_LAUNCHER" \
         -configuration "$JDT_LS_HOME/config_mac" \
+        --add-modules=ALL-SYSTEM \
+        --add-opens java.base/java.util=ALL-UNNAMED \
+        --add-opens java.base/java.lang=ALL-UNNAMED \
         "$@"
     EOS
   end
