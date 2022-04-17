@@ -2,13 +2,9 @@ class JdtLs < Formula
   desc "A Java language specific implementation of the Language Server Protocol"
   homepage "https://github.com/eclipse/eclipse.jdt.ls"
 
-  url "http://download.eclipse.org/jdtls/milestones/0.43.0/jdt-language-server-0.43.0-201909181008.tar.gz"
-  sha256 "ecbc21b1882ea84011e0fe4fe3cbb06ea605d1c996a6882606d7c1616a39a64b"
-  version "0.43.0-201909181008"
-
-  bottle :unneeded
-
-  depends_on :java => "1.8+"
+  url "http://download.eclipse.org/jdtls/milestones/1.9.0/jdt-language-server-1.9.0-202203031534.tar.gz"
+  sha256 "b8af1925cb3b817fd1061e00a45ffbc6aca76819d8b2f5939626009ebf432fc7"
+  version "1.9.0-202203031534"
 
   def install
     rm_rf "config_linux"
